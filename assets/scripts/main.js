@@ -55,8 +55,8 @@ function addRecipesToDocument(recipes) {
       titleLnk: recipe.titleLnk,
       titleTxt: recipe.titleTxt,
     };
-    console.log(recipe.imgAlt);
-    console.log(recipeCard);
+    //console.log(recipe.imgAlt);
+    //console.log(recipeCard);
     mainEl.append(recipeCard);
   });
 }
